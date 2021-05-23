@@ -1,0 +1,53 @@
+h1 {
+    color: white;
+}
+
+h2{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Comic Sans MS';
+    color: #EDEDED;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+}
+
+body{
+    background-color: #808080;
+}
+
+.item{
+    border: #0090AA 10px ;
+    border-style: ridge groove groove ridge;
+    padding: 10px;
+    transform: translate(100px);
+}
